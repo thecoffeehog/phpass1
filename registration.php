@@ -30,7 +30,7 @@ VALUES ('$name','$email','$username','$password')";
 
 if($conn->query($sql) === TRUE) {
 	echo "Success";
-	echo "<a href='/phpass1/login.html'>Login</a>";
+	echo "<a href='/projects/learningphp/phpass1/login.html'>Login</a>";
 }
 
 ?>
