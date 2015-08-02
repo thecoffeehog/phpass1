@@ -29,8 +29,8 @@ $sql = "INSERT INTO registeredusers (NAME, EMAIL, USERNAME, PASSWORD)
 VALUES ('$name','$email','$username','$password')";
 
 if($conn->query($sql) === TRUE) {
-	echo "Success";
-	echo "<a href='/projects/learningphp/phpass1/login.html'>Login</a>";
+	echo "Registration successful! Login ";
+	echo "<a href='/projects/learningphp/phpass1/login.html'>here</a>";
 }
 
 ?>
